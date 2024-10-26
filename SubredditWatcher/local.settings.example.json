@@ -1,0 +1,20 @@
+{
+  "RedditSettings": {
+    "Authentication": {
+      "ClientId": "",
+      "ClientSecret": "",
+      "RedirectUri": "http://localhost:32939/",
+      "UserAgent": "SubredditWatcher/1.0 by me",
+      "Scope": "identity,read",
+      "State": "randomstring"
+    },
+    "Subreddits": [ "legaladvice", "askreddit", "relationshipadvice" ]
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  }
+}
